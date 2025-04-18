@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#17202a;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+.title-container {
+  position: relative;
+  top: 2rem;
+}
+
+main {
+  display: flex;
+}
+
+.word-container {
+  background-color: #5d6d7e ;
+  width: 40rem;
+  height: 30rem;
+  position: relative;
+  top: 5rem;
+  left: 39.5rem;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.question-design {
+  text-align: center;
+  position: relative;
+  top: 12rem;
+  font-size: xx-large;
+  word-spacing: 2rem;
+}
+
+.letter-design {
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+.missing-word {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.output-design {
+  position: relative;
+  top: 19rem;
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  top: 38rem;
+  left: 9.2rem;
+}
+
+.input-design {
+  font-size: x-large;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+
+.button-container {
+  position: relative;
+  top: 42rem;
+  right: 5.6rem;
+}
+
+.btn-design {
+  padding: 0.9rem 3rem;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  border-radius: 20px;
+  border: none;
+}
